@@ -537,7 +537,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Screenshot Hasil (Client Sein)
 
-![Untitled](Resource/img/Untitled%201.png)
+![image]()
 
 ## Soal 2
 
@@ -558,7 +558,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Client Richter (Switch 3)
-  ![Untitled](Resource/img/Untitled%203.png)
+  ![image]()
 
 ## Soal 3
 
@@ -579,7 +579,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Client Sein (Switch 4)
-  ![Untitled](Resource/img/Untitled%204.png)
+  ![image]()
 
 ## Soal 4
 
@@ -616,7 +616,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Dari Client Sein
-  ![Untitled](Resource/img/Untitled%214.png)
+  ![image]()
 
 ## Soal 5
 
@@ -652,9 +652,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Client Richter (Switch 3)
-  ![Untitled](Resource/img/Untitled%203.png)
+  ![image]()
 - Client Sein (Switch 4)
-  ![Untitled](Resource/img/Untitled%204.png)
+  ![image]()
 
 [<< Daftar Isi](#daftar-isi)
 
@@ -718,7 +718,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pada masing masing Worker, berikan perintah `lynx localhost`
-  ![Untitled](Resource/img/Untitled%205.png)
+  ![image]()
 
 ## Soal 7
 
@@ -808,11 +808,11 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Load Balancing pada Client (Richter - Revolte - Sein)
-  ![Untitled](Resource/img/Untitled%206.png)
+  ![image]()
 - Hasil Testing pada Richter (Client)
-  ![Untitled](Resource/img/Untitled%207.png)
-  ![Untitled](Resource/img/Untitled%208.png)
-  ![Untitled](Resource/img/Untitled%209.png)
+  ![image]()
+  ![image]()
+  ![image]()
 
 ## Soal 8
 
@@ -869,17 +869,17 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - **Round Robin**
-  ![Untitled](Resource/img/Untitled%2010.png)
-  ![Untitled](Resource/img/Untitled%2011.png)
+  ![image]()
+  ![image]()
 - **Least-connection**
-  ![Untitled](Resource/img/Untitled%2012.png)
-  ![Untitled](Resource/img/Untitled%2013.png)
+  ![image]()
+  ![image]()
 - **IP Hash**
-  ![Untitled](Resource/img/Untitled%2014.png)
-  ![Untitled](Resource/img/Untitled%2015.png)
+  ![image]()
+  ![image]()
 - **Generic Hash**
-  ![Untitled](Resource/img/Untitled%2016.png)
-  ![Untitled](Resource/img/Untitled%2017.png)
+  ![image]()
+  ![image]()
 
 ## Soal 9
 
@@ -917,14 +917,14 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - **Round Robin 1**
-  ![Untitled](Resource/img/Untitled%2018.png)
-  ![Untitled](Resource/img/Untitled%2019.png)
+  ![image]()
+  ![image]()
 - **Round Robin 2**
-  ![Untitled](Resource/img/Untitled%2140.png)
-  ![Untitled](Resource/img/Untitled%2141.png)
+  ![image]()
+  ![image]()
 - **Round Robin 3**
-  ![Untitled](Resource/img/Untitled%2142.png)
-  ![Untitled](Resource/img/Untitled%2143.png)
+  ![image]()
+  ![image]()
 
 ## Soal 10
 
@@ -949,10 +949,10 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Saat mengakses granz.chanel.e16.com
-  ![Untitled](Resource/img/Untitled%2144.png)
-  ![Untitled](Resource/img/Untitled%2145.png)
-  ![Untitled](Resource/img/Untitled%2146.png)
-  ![Untitled](Resource/img/Untitled%2147.png)
+  ![image]()
+  ![image]()
+  ![image]()
+  ![image]()
 
 ## Soal 11
 
@@ -974,7 +974,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pada Richter (Client)
-  ![Untitled](Resource/img/Untitled%2148.png)
+  ![image]()
 
 ## Soal 12
 
@@ -1029,10 +1029,10 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pada Richter dengan IP acak 192.214.3.24; `Tidak bisa Akses`
-  ![Untitled](Resource/img/Untitled%2149.png)
-  ![Untitled](Resource/img/Untitled%2030.png)
+  ![image]()
+  ![image]()
 - Untuk membuktikan Pemberian akses, IP dari Client di Fix kan agar sesuai dengan hak akses pada LB. Lalu dilakukan pengujian ulang `berhasil`
-  ![Untitled](Resource/img/Untitled%2031.png)
+  ![image]()
 
 ## Soal 13
 
@@ -1059,9 +1059,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Query SQL
-  ![Untitled](Resource/img/Untitled%2032.png)
+  ![image]()
 - Testing akses databases dari Worker
-  ![Untitled](Resource/img/Untitled%2033.png)
+  ![image]()
 
 ## Soal 14
 
@@ -1122,7 +1122,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Jalankan `lynx localhost:[port]` pada setiap worker
-  ![Untitled](Resource/img/Untitled%2034.png)
+  ![image]()
 
 ## Soal 15
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. POST /auth/register
@@ -1149,9 +1149,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
-  ![Untitled](Resource/img/Untitled%2035.png)
+  ![image]()
 - Response
-  ![Untitled](Resource/img/Untitled%2052.png)
+  ![image]()
 
 ## Soal 16
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. POST /auth/login
@@ -1178,11 +1178,11 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
-  ![Untitled](Resource/img/Untitled%2036.png)
+  ![image]()
 - Hasil Akhir
-  ![Untitled](Resource/img/Untitled%2037.png)
+  ![image]()
 - Response
-  ![Untitled](Resource/img/Untitled%2053.png)
+  ![image]()
 
 ## Soal 17
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. GET /me
@@ -1209,9 +1209,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
-  ![Untitled](Resource/img/Untitled%2038.png)
+  ![image]()
 - Response
-  ![Untitled](Resource/img/Untitled%2054.png)
+  ![image]()
 
 ## Soal 18
 > Untuk memastikan ketiganya bekerja sama secara adil untuk mengatur Riegel Channel maka implementasikan Proxy Bind pada Eisen untuk mengaitkan IP dari Frieren, Flamme, dan Fern
@@ -1249,10 +1249,10 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pengujian apache benchmark dari Sein (Client) pada 3 Worker Laravel
-  ![Untitled](Resource/img/Untitled%2039.png)
-  ![Untitled](Resource/img/Untitled%2040.png)
+  ![image]()
+  ![image]()
 - Log Access
-  ![Untitled](Resource/img/Untitled%2041.png)
+  ![image]()
 
 ## Soal 19
 > Untuk meningkatkan performa dari Worker, coba implementasikan PHP-FPM pada Frieren, Flamme, dan Fern. Untuk testing kinerja naikkan pm.max_children, pm.start_servers, pm.min_spare_servers, pm.max_spare_servers
@@ -1342,14 +1342,14 @@ sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 reque
 ### Screenshot Hasil
 
 - Percobaan 1 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
-  ![Untitled](Resource/img/Untitled%2042.png)
-  ![Untitled](Resource/img/Untitled%2043.png)
+  ![image]()
+  ![image]()
 - Percobaan 2 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
-  ![Untitled](Resource/img/Untitled%2044.png)
-  ![Untitled](Resource/img/Untitled%2045.png)
+  ![image]()
+  ![image]()
 - Percobaan 3 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
-  ![Untitled](Resource/img/Untitled%2046.png)
-  ![Untitled](Resource/img/Untitled%2047.png)
+  ![image]()
+  ![image]()
 
 ## Soal 20
 > Nampaknya hanya menggunakan PHP-FPM tidak cukup untuk meningkatkan performa dari worker maka implementasikan Least-Conn pada Eisen. Untuk testing kinerja dari worker tersebut dilakukan sebanyak 100 request dengan 10 request/second.
@@ -1384,8 +1384,8 @@ sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 reque
 ### Screenshot Hasil
 
 - Pengujian menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
-  ![Untitled](Resource/img/Untitled%2048.png)
-  ![Untitled](Resource/img/Untitled%2049.png)
+  ![image]()
+  ![image]()
 
 [<< Daftar Isi](#daftar-isi)
 
