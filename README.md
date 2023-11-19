@@ -1036,7 +1036,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 - Masuk ke mariadb `mysql -u root -p` dan jalankan query berikut
   ```python
   CREATE USER 'kelompoke16'@'%' IDENTIFIED BY 'passworde16';
-  CREATE USER 'kelompok1e6'@'localhost' IDENTIFIED BY 'password1e6';
+  CREATE USER 'kelompoke16'@'localhost' IDENTIFIED BY 'password1e6';
   CREATE DATABASE dbkelompok1e6;
   GRANT ALL PRIVILEGES ON *.* TO 'kelompoke16'@'%';
   GRANT ALL PRIVILEGES ON *.* TO 'kelompoke16'@'localhost';
