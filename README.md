@@ -1050,10 +1050,8 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Screenshot Hasil
 
-- Query SQL
-  ![image]()
 - Testing akses databases dari Worker
-  ![image]()
+  ![image](1-9/Soal13.png)
 
 ## Soal 14
 
@@ -1140,10 +1138,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Screenshot Hasil
 
-- Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
-  ![image]()
-- Response
-  ![image]()
+- Pengujian apache benchmark 
+  ![image](1-9/Soal15.png)
+
 
 ## Soal 16
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. POST /auth/login
@@ -1169,12 +1166,8 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Screenshot Hasil
 
-- Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
+- Pengujian apache benchmark
   ![image](Resource/img/Untitled%2036.png))
-- Hasil Akhir
-  ![image]()
-- Response
-  ![image]()
 
 ## Soal 17
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. GET /me
@@ -1200,10 +1193,8 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Screenshot Hasil
 
-- Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
-  ![image]()
-- Response
-  ![image]()
+- Pengujian apache benchmark
+  ![image](1-9/Soal17.png)
 
 ## Soal 18
 > Untuk memastikan ketiganya bekerja sama secara adil untuk mengatur Riegel Channel maka implementasikan Proxy Bind pada Eisen untuk mengaitkan IP dari Frieren, Flamme, dan Fern
@@ -1242,9 +1233,6 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 - Pengujian apache benchmark dari Sein (Client) pada 3 Worker Laravel
   ![image](Resource/img/Untitled%2039.png)
-  ![image]()
-- Log Access
-  ![image]()
 
 ## Soal 19
 > Untuk meningkatkan performa dari Worker, coba implementasikan PHP-FPM pada Frieren, Flamme, dan Fern. Untuk testing kinerja naikkan pm.max_children, pm.start_servers, pm.min_spare_servers, pm.max_spare_servers
@@ -1335,13 +1323,13 @@ sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 reque
 
 - Percobaan 1 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
   ![image](Resource/img/Untitled%2042.png)
-  ![image]()
+
 - Percobaan 2 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
   ![image](Resource/img/Untitled%2044.png)
-  ![image]()
+
 - Percobaan 3 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
   ![image](Resource/img/Untitled%2046.png)
-  ![image]()
+
 
 ## Soal 20
 > Nampaknya hanya menggunakan PHP-FPM tidak cukup untuk meningkatkan performa dari worker maka implementasikan Least-Conn pada Eisen. Untuk testing kinerja dari worker tersebut dilakukan sebanyak 100 request dengan 10 request/second.
@@ -1377,8 +1365,6 @@ sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 reque
 
 - Pengujian menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
   ![image](Resource/img/Untitled%2048.png)
-  ![image]()
-
-[<< Daftar Isi](#daftar-isi)
 
 ## Grimoire
+[E16_Grimoire](https://docs.google.com/document/d/1YUhMDBbp77_SDvRDR1udqsHB2mLPenXZhfzxKCvjQzo/edit?usp=sharing)
