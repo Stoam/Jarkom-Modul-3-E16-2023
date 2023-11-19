@@ -1360,9 +1360,9 @@ sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 reque
   ```python
   echo 'upstream backend {
   			least_conn;
-  	    server 192.202.4.1:8001; # IP Fern
-  	    server 192.202.4.2:8002; # IP Flamme
-  	    server 192.202.4.3:8003; # IP Frieren
+  	    server 192.214.4.1:8001; # IP Fern
+  	    server 192.214.4.2:8002; # IP Flamme
+  	    server 192.214.4.3:8003; # IP Frieren
   	}
 
   	server {
