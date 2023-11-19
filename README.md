@@ -869,17 +869,17 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - **Round Robin**
-  ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2010.png)
+  ![image](Resource/img/Untitled%2011.png)
 - **Least-connection**
-  ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2012.png)
+  ![image](Resource/img/Untitled%2013.png)
 - **IP Hash**
-  ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2014.png)
+  ![image](Resource/img/Untitled%2015.png)
 - **Generic Hash**
-  ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2016.png)
+  ![image](Resource/img/Untitled%2017.png)
 
 ## Soal 9
 
@@ -917,14 +917,14 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - **Round Robin 1**
-  ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2018.png)
+  ![image](Resource/img/Untitled%2019.png)
 - **Round Robin 2**
-  ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2020.png)
+  ![image](Resource/img/Untitled%2021.png)
 - **Round Robin 3**
-  ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2022.png)
+  ![image](Resource/img/Untitled%2023.png)
 
 ## Soal 10
 
@@ -949,10 +949,10 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Saat mengakses granz.chanel.e16.com
-  ![image]()
-  ![image]()
-  ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2024.png)
+  ![image](Resource/img/Untitled%2025.png)
+  ![image](Resource/img/Untitled%2026.png)
+  ![image](Resource/img/Untitled%2027.png)
 
 ## Soal 11
 
@@ -974,7 +974,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pada Richter (Client)
-  ![image]()
+  ![image](Resource/img/Untitled%2028.png)
 
 ## Soal 12
 
@@ -1030,9 +1030,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 - Pada Richter dengan IP acak 192.214.3.24; `Tidak bisa Akses`
   ![image]()
-  ![image]()
+  ![image](Resource/img/Untitled%2030.png)
 - Untuk membuktikan Pemberian akses, IP dari Client di Fix kan agar sesuai dengan hak akses pada LB. Lalu dilakukan pengujian ulang `berhasil`
-  ![image]()
+  ![image](Resource/img/Untitled%2031.png)
 
 ## Soal 13
 
@@ -1122,7 +1122,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Jalankan `lynx localhost:[port]` pada setiap worker
-  ![image]()
+  ![image](Resource/img/Untitled%2034.png)
 
 ## Soal 15
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. POST /auth/register
@@ -1178,7 +1178,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
-  ![image]()
+  ![image](Resource/img/Untitled%2036.png))
 - Hasil Akhir
   ![image]()
 - Response
@@ -1249,7 +1249,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pengujian apache benchmark dari Sein (Client) pada 3 Worker Laravel
-  ![image]()
+  ![image](Resource/img/Untitled%2039.png)
   ![image]()
 - Log Access
   ![image]()
@@ -1342,13 +1342,13 @@ sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 reque
 ### Screenshot Hasil
 
 - Percobaan 1 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
-  ![image]()
+  ![image](Resource/img/Untitled%2042.png)
   ![image]()
 - Percobaan 2 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
-  ![image]()
+  ![image](Resource/img/Untitled%2044.png)
   ![image]()
 - Percobaan 3 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
-  ![image]()
+  ![image](Resource/img/Untitled%2046.png)
   ![image]()
 
 ## Soal 20
@@ -1384,7 +1384,7 @@ sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 reque
 ### Screenshot Hasil
 
 - Pengujian menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
-  ![image]()
+  ![image](Resource/img/Untitled%2048.png)
   ![image]()
 
 [<< Daftar Isi](#daftar-isi)
