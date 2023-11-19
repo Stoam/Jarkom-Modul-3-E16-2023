@@ -16,33 +16,32 @@ Laporan Praktikum Jaringan Komputer Modul 3 Tahun 2023
 - [Network Configuration](#network-configuration)
 - [Files](#Files)
 - [Soal Praktikum](#Soal-Praktikum)
-  - [No 0](#No-0)
-  - [No 1](#No-1)
-  - [No 2](#No-2)
-  - [No 3](#No-3)
-  - [No 4](#No-4)
-  - [No 5](#No-5)
-  - [No 6](#No-6)
-  - [No 7](#No-7)
-  - [No 8](#No-8)
-  - [No 9](#No-9)
-  - [No 10](#No-10)
-  - [No 11](#No-11)
-  - [No 12](#No-12)
-  - [No 13](#No-13)
-  - [No 14](#No-14)
-  - [No 15](#No-15)
-  - [No 16](#No-16)
-  - [No 17](#No-17)
-  - [No 18](#No-18)
-  - [No 19](#No-19)
-  - [No 20](#No-20)
+  - [No 1](#soal-1)
+  - [No 2](#soal-2)
+  - [No 3](#soal-3)
+  - [No 4](#soal-4)
+  - [No 5](#soal-5)
+  - [No 6](#soal-6)
+  - [No 7](#soal-7)
+  - [No 8](#soal-8)
+  - [No 9](#soal-9)
+  - [No 10](#soal-10)
+  - [No 11](#soal-11)
+  - [No 12](#soal-12)
+  - [No 13](#soal-13)
+  - [No 14](#soal-14)
+  - [No 15](#soal-15)
+  - [No 16](#soal-16)
+  - [No 17](#soal-17)
+  - [No 18](#soal-18)
+  - [No 19](#soal-19)
+  - [No 20](#soal-20)
   - [Grimoire](#Grimoire)
  
 ## Topologi
 Berikut adalah topologi yang digunakan pada praktikum modul 3
 
-![](/images/topologi.png)
+![image](https://github.com/Stoam/Jarkom-Modul-3-E16-2023/assets/58579201/c1c9d365-833d-4193-a3f9-7782a65073cb)
 
 ## Network Configuration
 - **Aura (Router)**
@@ -76,7 +75,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
   iface eth0 inet static
 	  address 192.214.1.1
 	  netmask 255.255.255.0
-	  gateway 192.220.1.0
+	  gateway 192.214.1.0
 	 
   ```
 - **Heiter (DNS Server)**
@@ -85,7 +84,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
   iface eth0 inet static
 	  address 192.214.1.2
 	  netmask 255.255.255.0
-	  gateway 192.220.1.0
+	  gateway 192.214.1.0
 	 
   ```
 - **Denken (Database Server)**
@@ -94,7 +93,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
   iface eth0 inet static
 	  address 192.214.2.1
 	  netmask 255.255.255.0
-	  gateway 192.220.2.0
+	  gateway 192.214.2.0
 
   ```
 - **Eisen (Load Balancer)**
@@ -103,7 +102,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
   iface eth0 inet static
 	  address 192.214.2.2
 	  netmask 255.255.255.0
-	  gateway 192.220.2.0
+	  gateway 192.214.2.0
 	
   ```
 - **Sein, Stark, Revolte, Richter (Clients) **
@@ -121,7 +120,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
 		netmask 255.255.255.0
 		gateway 192.214.3.0
 
-	hwaddress ether 1a:ea:3e:d1:a3:83
+	hwaddress ether 9e:9f:dd:f4:ac:68
     ```
   - **Linie**
     ```
@@ -131,7 +130,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
 		netmask 255.255.255.0
 		gateway 192.214.3.0
 
-	hwaddress ether 2a:d0:fa:ad:f6:20
+	hwaddress ether 66:1b:73:09:0b:07
  
     ```
   - **Lugner**
@@ -142,7 +141,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
 		netmask 255.255.255.0
 	gateway 192.214.3.0
 
-	hwaddress ether 7a:b6:0f:b7:a7:70
+	hwaddress ether 86:89:ee:02:8d:5e
     ```
 - **Frieren, Flamme, Fern - Laravel Worker**
 
@@ -154,7 +153,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
 	netmask 255.255.255.0
 	gateway 192.214.4.0
 
-	hwaddress ether d6:7a:43:23:c0:f5
+	hwaddress ether 2a:19:54:95:f7:cf
     ```
   - **Flamme**
     ```
@@ -164,7 +163,7 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
 		netmask 255.255.255.0
 	gateway 192.214.4.0
 
-	hwaddress ether 16:12:b5:cf:e8:cc
+	hwaddress ether 0e:c3:2e:4c:95:bd
     ```
   - **Fern**
     ```
@@ -174,10 +173,11 @@ Berikut adalah topologi yang digunakan pada praktikum modul 3
 		netmask 255.255.255.0
 	gateway 192.214.4.0
 
-	hwaddress ether d6:7a:43:23:c0:f5
+	hwaddress ether f6:35:c1:d2:5b:44
     ```
 ## Files
-Sebelum menjawab soal - soal yang diberikan, pastikan file - file ini ada pada `/root` masing - masing node  
+Sebelum menjawab soal - soal yang diberikan, pastikan file - file ini ada pada `/root` masing - masing node
+
 ## DHCP Relay (Aura)
 
 ```bash
@@ -257,7 +257,7 @@ echo '
 upstream backend {
  	server 192.214.3.1;
  	server 192.214.3.2;
-    server 192.214.3.3;
+  server 192.214.3.3;
 }
 
 server {
@@ -404,7 +404,7 @@ LOG_DEPRECATIONS_CHANNEL=null
 LOG_LEVEL=debug
 
 DB_CONNECTION=mysql
-DB_HOST=192.202.2.1
+DB_HOST=192.214.2.1
 DB_PORT=3306
 DB_DATABASE=dbkelompoke16
 DB_USERNAME=kelompoke16
@@ -468,8 +468,8 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Solusi
 
-- Atur konfigurasi setiap node sesuai dengan setup yang telah ada di atas
-- Untuk register domain pada `riegel.canyon.e16.com` dan `granz.chanel.e16.com` yang mengarah ke worker dengan ip `192.168.x.`tambakan ini dalam Heiter (DNS Server)
+- Atur konfigurasi setiap node sesuai dengan setup di atas
+- Untuk register domain pada `riegel.canyon.e16.com` dan `granz.chanel.e16.com` yang mengarah ke worker dengan ip `192.168.x.`, tambahkan script berikut dalam Heiter (DNS Server)
   ```python
   echo "
   zone \"granz.channel.e16.com\" {
@@ -505,14 +505,14 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
   ;
   \$TTL    604800
   @       IN      SOA     granz.channel.e16.com. root.granz.channel.e16.com. (
-                                2         ; Serial
+                       2023111401         ; Serial
                            604800         ; Refresh
                             86400         ; Retry
                           2419200         ; Expire
                            604800 )       ; Negative Cache TTL
   ;
   @                 IN      NS      granz.channel.e16.com.
-  @                 IN      A       192.214.3.1 ; IP PHP Worker (Lawine)
+  @                 IN      A       192.214.3.3 ; IP PHP Worker (Lawine)
   www               IN      CNAME   granz.channel.e16.com.
   " > /etc/bind/granz/granz.channel.e16.com
 
@@ -523,14 +523,14 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
   ;
   \$TTL    604800
   @       IN      SOA     riegel.canyon.e16.com. root.riegel.canyon.e16.com. (
-                                2         ; Serial
+                       2023111401         ; Serial
                            604800         ; Refresh
                             86400         ; Retry
                           2419200         ; Expire
                            604800 )       ; Negative Cache TTL
   ;
   @           IN      NS      riegel.canyon.e16.com.
-  @           IN      A       192.214.4.1 ; IP Laravel Worker (Frieren)
+  @           IN      A       192.214.4.3 ; IP Laravel Worker (Frieren)
   www         IN      CNAME   riegel.canyon.e16.com.
   " > /etc/bind/riegel/riegel.canyon.e16.com
   ```
@@ -545,7 +545,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Solusi
 
-- Tambahkan Konfigurasi DHCP pada Himmel (DHCP Server) pada /etc/dhcp/dhcpd.conf
+- Tambahkan Konfigurasi DHCP pada Himmel (DHCP Server) di /etc/dhcp/dhcpd.conf
   ```python
   # eth3
   subnet 192.214.3.0 netmask 255.255.255.0 {
@@ -566,7 +566,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Solusi
 
-- Tambahkan Konfigurasi DHCP pada Himmel (DHCP Server) pada /etc/dhcp/dhcpd.conf
+- Tambahkan Konfigurasi DHCP pada Himmel (DHCP Server) di /etc/dhcp/dhcpd.conf
   ```python
   # eth4
   subnet 192.214.4.0 netmask 255.255.255.0 {
@@ -624,7 +624,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Solusi
 
-- Di DHCP Server, Tambahkan `default-lease-time` dan `max-lease-team` pada /etc/dhcp/dhcpd.conf
+- Di DHCP Server, tambahkan `default-lease-time` dan `max-lease-team` pada /etc/dhcp/dhcpd.conf
   ```python
   # eth3
   subnet 192.214.3.0 netmask 255.255.255.0 {
@@ -726,7 +726,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Solusi
 
-- Pada Heiter (DNS Server), modifikasi untuk arahkan `granz.channel.e16.com` dan `riegel.canyon.e16.com` ke LB Eisen
+- Pada Heiter (DNS Server), modifikasi untuk mengarahkan `granz.channel.e16.com` dan `riegel.canyon.e16.com` ke Load Balancer Eisen
   ```python
   echo "
   ;
@@ -734,7 +734,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
   ;
   \$TTL    604800
   @       IN      SOA     granz.channel.e16.com. root.granz.channel.e16.com. (
-                                2         ; Serial
+                       2023111401         ; Serial
                            604800         ; Refresh
                             86400         ; Retry
                           2419200         ; Expire
@@ -751,7 +751,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
   ;
   \$TTL    604800
   @       IN      SOA     riegel.canyon.e16.com. root.riegel.canyon.e16.com. (
-                                2         ; Serial
+                       2023111401         ; Serial
                            604800         ; Refresh
                             86400         ; Retry
                           2419200         ; Expire
@@ -764,7 +764,7 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
   service bind9 restart
   ```
-- Pada Eisen, berikan konfigurasi LB dengan nginx sebagai berikut dengan manipulasi sesuai dengan spesifikasi pada soal yaitu lawine 4GB 2vCPU diberikan weight 8, linie 2GB 2vCPU diberikan weight 4, dan lugner 1GB 1vCPU diberikan weight 1
+- Pada Eisen, berikan konfigurasi LB dengan nginx berdasarkan informasi spesifikasi yang diberikan pada soal sebagai berikut: lawine 4GB 2vCPU maka weight=8, linie 2GB 2vCPU maka weight=4, dan lugner 1GB 1vCPU maka weight=1
   ```python
   echo 'nameserver 192.168.122.1' > /etc/resolv.conf
 
@@ -773,9 +773,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
   echo '
   upstream backend {
-   	server 192.214.3.1 weight=8;
+   	server 192.214.3.3 weight=8;
    	server 192.214.3.2 weight=4;
-    server 192.214.3.3 weight=1;
+    server 192.214.3.1 weight=1;
   }
 
   server {
@@ -1034,61 +1034,359 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 - Untuk membuktikan Pemberian akses, IP dari Client di Fix kan agar sesuai dengan hak akses pada LB. Lalu dilakukan pengujian ulang `berhasil`
   ![Untitled](Resource/img/Untitled%2031.png)
 
-### No 13
+## Soal 13
+
 > Semua data yang diperlukan, diatur pada Denken dan harus dapat diakses oleh Frieren, Flamme, dan Fern
 
-#### Answer:  
+### Solusi
 
-#### Testing:  
+- Jalankan setup konfigurasi pada Denken (Database Server) dan Worker Laravel
+- Masuk ke mariadb `mysql -u root -p` dan jalankan query berikut
+  ```python
+  CREATE USER 'kelompoke16'@'%' IDENTIFIED BY 'passworde16';
+  CREATE USER 'kelompok1e6'@'localhost' IDENTIFIED BY 'password1e6';
+  CREATE DATABASE dbkelompok1e6;
+  GRANT ALL PRIVILEGES ON *.* TO 'kelompoke16'@'%';
+  GRANT ALL PRIVILEGES ON *.* TO 'kelompoke16'@'localhost';
+  FLUSH PRIVILEGES;
+  ```
+- Restart mysql `service mysql restart`
+- Pada Worker yang sudah disetup mariadb-client, lakukan testing untuk mengakses database
+  ```python
+  mysql --host=192.214.2.1 --port=3306 --user=kelompoke16 --password=passworde16
+  ```
 
-### No 14
+### Screenshot Hasil
+
+- Query SQL
+  ![Untitled](Resource/img/Untitled%2032.png)
+- Testing akses databases dari Worker
+  ![Untitled](Resource/img/Untitled%2033.png)
+
+## Soal 14
+
 > Frieren, Flamme, dan Fern memiliki Riegel Channel sesuai dengan quest guide berikut. Jangan lupa melakukan instalasi PHP8.0 dan Composer
 
-#### Answer:  
+### Solusi
 
-#### Testing:  
+- Lakukan setup pada setiap worker untuk menginstall php8 composer serta file Laravel-github
+- Pada `php artisan migrate` terdapat eror yang dapat diselesaikan dengan menambahkan kode ini pada /app/Providers/AppServiceProvider.php
+  ```python
+  use Illuminate\Support\Facades\Schema;
 
-### No 15
+  /**
+   * Bootstrap any application services.
+   *
+   * @return void
+   */
+  public function boot()
+  {
+      Schema::defaultStringLength(191);
+  }
+  ```
+- Setelah berhasil konfigurasi laravel, pada masing masing worker, lakukan setting untuk nginx sesuai dengan port yang telah ditentukan masing masing worker
+  ```python
+  echo 'server {
+      listen 8001; # Fern
+      listen 8002; # Flamme
+      listen 8003; # Frieren
+
+      root /var/www/laravel-praktikum-jarkom/public;
+
+      index index.php index.html index.htm;
+      server_name _;
+
+      location / {
+              try_files $uri $uri/ /index.php?$query_string;
+      }
+
+      location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.0-fpm.sock;
+      }
+
+      location ~ /\.ht {
+              deny all;
+      }
+
+      error_log /var/log/nginx/error.log;
+      access_log /var/log/nginx/access.log;
+  }' > /etc/nginx/sites-available/default
+
+  ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled
+  service php8.0-fpm start
+  service nginx restart
+  ```
+- Restart Nginx dan php8.0-fpm
+
+### Screenshot Hasil
+
+- Jalankan `lynx localhost:[port]` pada setiap worker
+  ![Untitled](Resource/img/Untitled%2034.png)
+
+## Soal 15
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. POST /auth/register
 
-#### Answer:  
+### Solusi
 
-#### Testing:  
+- Buat file json untuk data yang akan di post
+  ```python
+  echo '
+  {
+    "username": "kelompoke16",
+    "password": "passworde16"
+  }' > register.json
+  ```
+- Lakukan pengujian apache benchmark pada salah satu client (Sein) dengan perintah
+  ```python
+  ab -n 100 -c 10 -p register.json -T application/json http://192.214.4.1:8001/api/auth/register
+  ```
+- Untuk mendapatkan response, lakukan curl seperti berikut
+  ```python
+  curl -X POST -H "Content-Type: application/json" -d @register.json http://192.214.4.1:8001/api/auth/register -o register_response.txt
+  ```
 
-### No 16
+### Screenshot Hasil
+
+- Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
+  ![Untitled](Resource/img/Untitled%2035.png)
+- Response
+  ![Untitled](Resource/img/Untitled%2052.png)
+
+## Soal 16
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. POST /auth/login
 
-#### Answer:  
+### Solusi
 
-#### Testing:  
+- Buat file json untuk data yang akan di post
+  ```python
+  echo '
+  {
+    "username": "kelompoke16",
+    "password": "passworde16"
+  }' > register.json
+  ```
+- Lakukan pengujian apache benchmark pada salah satu client (Sein) dengan perintah
+  ```python
+  ab -n 100 -c 10 -p register.json -T application/json http://192.214.4.1:8001/api/auth/login
+  ```
+- Untuk mendapatkan response, lakukan curl seperti berikut
+  ```python
+  curl -X POST -H "Content-Type: application/json" -d @register.json http://192.214.4.1:8001/api/auth/login > login_response.txt
+  ```
 
-### No 17
+### Screenshot Hasil
+
+- Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
+  ![Untitled](Resource/img/Untitled%2036.png)
+- Hasil Akhir
+  ![Untitled](Resource/img/Untitled%2037.png)
+- Response
+  ![Untitled](Resource/img/Untitled%2053.png)
+
+## Soal 17
 > Riegel Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. GET /me
 
-#### Answer:  
+### Solusi
 
-#### Testing:  
+- Pada endpoint Get /me diperlukan Request Header berupa Bearer Token, oleh karena itu sebelum mengakses perlu didapatkan tokennya terlebih dahulu
+  ```python
+  curl -X POST -H "Content-Type: application/json" -d @register.json http://192.214.4.1:8001/api/auth/login > login_response.txt
+  ```
+- Setelah mendapatkan token, set token sebagai global
+  ```python
+  token=$(cat login_response.txt | jq -r '.token')
+  ```
+- Jalankan Testing
+  ```python
+  ab -n 100 -c 10 -H "Authorization: Bearer $token" http://192.214.4.1:8001/api/me
+  ```
+- Untuk mendapatkan response, lakukan curl seperti berikut
+  ```python
+  curl -X GET -H "Authorization: Bearer $token" http://192.214.4.1:8001/api/me > get_response.txt
+  ```
 
-### No 18
+### Screenshot Hasil
+
+- Pengujian apache benchmark dari Sein (Client) ke Fern (Worker Laravel)
+  ![Untitled](Resource/img/Untitled%2038.png)
+- Response
+  ![Untitled](Resource/img/Untitled%2054.png)
+
+## Soal 18
 > Untuk memastikan ketiganya bekerja sama secara adil untuk mengatur Riegel Channel maka implementasikan Proxy Bind pada Eisen untuk mengaitkan IP dari Frieren, Flamme, dan Fern
 
-#### Answer:  
+### Solusi
 
-#### Testing:  
+- Untuk mengimplementasikan Load Balancer pada Laravel Worker, buat konfigurasi baru untuk worker laravel pada LB (Eisen)
+  ```python
+  	echo 'upstream backend {
+  	    server 192.214.4.1:8001; # IP Fern
+  	    server 192.214.4.2:8002; # IP Flamme
+  	    server 192.214.4.3:8003; # IP Frieren
+  	}
 
-### No 19
+  	server {
+  	    listen 80;
+  	    server_name riegel.canyon.e16.com;
+
+  	    location / {
+  	        proxy_pass http://backend;
+  	    }
+  	    error_log /var/log/nginx/lb_laravel_error.log;
+  	    access_log /var/log/nginx/lb_laravel_access.log;
+  	}
+  	' > /etc/nginx/sites-available/default
+
+  	ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled
+  	service nginx restart
+  ```
+- Setelah itu restart nginx dan jalankan test ulang dari client dengan
+  ```python
+  ab -n 100 -c 10 -H "Authorization: Bearer $token" http://riegel.canyon.e16.com/api/me
+  ```
+
+### Screenshot Hasil
+
+- Pengujian apache benchmark dari Sein (Client) pada 3 Worker Laravel
+  ![Untitled](Resource/img/Untitled%2039.png)
+  ![Untitled](Resource/img/Untitled%2040.png)
+- Log Access
+  ![Untitled](Resource/img/Untitled%2041.png)
+
+## Soal 19
 > Untuk meningkatkan performa dari Worker, coba implementasikan PHP-FPM pada Frieren, Flamme, dan Fern. Untuk testing kinerja naikkan pm.max_children, pm.start_servers, pm.min_spare_servers, pm.max_spare_servers
 sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 request/second kemudian berikan hasil analisisnya pada Grimoire
 
-#### Answer:  
+### Solusi
 
-#### Testing:  
+- Percobaan 1
+  ```python
+  echo '[laravel]
+  user = laravel
+  group = laravel
+  listen = /var/run/php8.1-fpm-dressrosa-site.sock
+  listen.owner = www-data
+  listen.group = www-data
+  php_admin_value[disable_functions] = exec,passthru,shell_exec,system
+  php_admin_flag[allow_url_fopen] = off
 
-### No 20
+  ; Choose how the process manager will control the number of child processes.
+
+  pm = dynamic
+  pm.max_children = 50
+  pm.start_servers = 10
+  pm.min_spare_servers = 2
+  pm.max_spare_servers = 15
+  pm.process_idle_timeout = 10s
+
+  ;contoh diatas konfigurasi untuk mengatur jumalh proses PHP-FPM yang berjalan
+  ' > /etc/php/8.0/fpm/pool.d/www.conf
+
+  service php8.0-fpm restart
+  service nginx restart
+  ```
+- Percobaan 2
+  ```python
+  echo '[laravel]
+  user = laravel
+  group = laravel
+  listen = /var/run/php8.1-fpm-dressrosa-site.sock
+  listen.owner = www-data
+  listen.group = www-data
+  php_admin_value[disable_functions] = exec,passthru,shell_exec,system
+  php_admin_flag[allow_url_fopen] = off
+
+  ; Choose how the process manager will control the number of child processes.
+
+  pm = dynamic
+  pm.max_children = 75
+  pm.start_servers = 15
+  pm.min_spare_servers = 5
+  pm.max_spare_servers = 25
+  pm.process_idle_timeout = 10s
+
+  ;contoh diatas konfigurasi untuk mengatur jumalh proses PHP-FPM yang berjalan
+  ' > /etc/php/8.0/fpm/pool.d/www.conf
+
+  service php8.0-fpm restart
+  service nginx restart
+  ```
+- Percobaan 3
+  ```python
+  echo '[laravel]
+  user = laravel
+  group = laravel
+  listen = /var/run/php8.1-fpm-dressrosa-site.sock
+  listen.owner = www-data
+  listen.group = www-data
+  php_admin_value[disable_functions] = exec,passthru,shell_exec,system
+  php_admin_flag[allow_url_fopen] = off
+
+  ; Choose how the process manager will control the number of child processes.
+
+  pm = dynamic
+  pm.max_children = 100
+  pm.start_servers = 20
+  pm.min_spare_servers = 10
+  pm.max_spare_servers = 30
+  pm.process_idle_timeout = 10s
+
+  ;contoh diatas konfigurasi untuk mengatur jumalh proses PHP-FPM yang berjalan
+  ' > /etc/php/8.0/fpm/pool.d/www.conf
+
+  service php8.0-fpm restart
+  service nginx restart
+  ```
+
+### Screenshot Hasil
+
+- Percobaan 1 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
+  ![Untitled](Resource/img/Untitled%2042.png)
+  ![Untitled](Resource/img/Untitled%2043.png)
+- Percobaan 2 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
+  ![Untitled](Resource/img/Untitled%2044.png)
+  ![Untitled](Resource/img/Untitled%2045.png)
+- Percobaan 3 menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
+  ![Untitled](Resource/img/Untitled%2046.png)
+  ![Untitled](Resource/img/Untitled%2047.png)
+
+## Soal 20
 > Nampaknya hanya menggunakan PHP-FPM tidak cukup untuk meningkatkan performa dari worker maka implementasikan Least-Conn pada Eisen. Untuk testing kinerja dari worker tersebut dilakukan sebanyak 100 request dengan 10 request/second.
 
-#### Answer:  
+### Solusi
 
-#### Testing:  
+- Edit konfigurasi pada LB Eisen untuk menambahkan `least_conn` dalam upstream
+  ```python
+  echo 'upstream backend {
+  			least_conn;
+  	    server 192.202.4.1:8001; # IP Fern
+  	    server 192.202.4.2:8002; # IP Flamme
+  	    server 192.202.4.3:8003; # IP Frieren
+  	}
 
-### Grimoire
+  	server {
+  	    listen 80;
+  	    server_name riegel.canyon.e16.com;
+
+  	    location / {
+  	        proxy_pass http://backend;
+  	    }
+  	    error_log /var/log/nginx/lb_laravel_error.log;
+  	    access_log /var/log/nginx/lb_laravel_access.log;
+  	}
+  	' > /etc/nginx/sites-available/default
+
+  	ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled
+  	service nginx restart
+  ```
+
+### Screenshot Hasil
+
+- Pengujian menggunakan endpoint Get /me sebanyak 100 request dengan 10 request/second.
+  ![Untitled](Resource/img/Untitled%2048.png)
+  ![Untitled](Resource/img/Untitled%2049.png)
+
+[<< Daftar Isi](#daftar-isi)
+
+## Grimoire
