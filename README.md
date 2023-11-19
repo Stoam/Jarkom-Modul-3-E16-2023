@@ -535,9 +535,10 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
   " > /etc/bind/riegel/riegel.canyon.e16.com
   ```
 
-### Screenshot Hasil (Client Sein)
+### Screenshot Hasil (Client Stark)
 
-![image]()
+![image](1-9/Soal1-a.png)
+![image](1-9/Soal1-b.png)
 
 ## Soal 2
 
@@ -555,11 +556,6 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
   }
   ```
 
-### Screenshot Hasil
-
-- Client Richter (Switch 3)
-  ![image]()
-
 ## Soal 3
 
 > 3. Client yang melalui Switch4 mendapatkan range IP dari [prefix IP].4.12 - [prefix IP].4.20 dan [prefix IP].4.160 - [prefix IP].4.168 **(3)**
@@ -575,11 +571,6 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
       option routers 192.214.4.200;
   }
   ```
-
-### Screenshot Hasil
-
-- Client Sein (Switch 4)
-  ![image]()
 
 ## Soal 4
 
@@ -615,8 +606,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Screenshot Hasil
 
-- Dari Client Sein
-  ![image]()
+- Dari Client Stark
+![image](1-9/Soal1-a.png)
+![image](1-9/Soal1-b.png)
 
 ## Soal 5
 
@@ -651,12 +643,12 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Screenshot Hasil
 
-- Client Richter (Switch 3)
-  ![image]()
-- Client Sein (Switch 4)
-  ![image]()
+- Client Revolte (Switch 3)
+  ![image](1-9/Soal5-b.png)
+- Client Stark (Switch 4)
+ ![image](1-9/Soal5-a.png)
 
-[<< Daftar Isi](#daftar-isi)
+
 
 ## Soal 6
 
@@ -718,7 +710,9 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 ### Screenshot Hasil
 
 - Pada masing masing Worker, berikan perintah `lynx localhost`
-  ![image]()
+  ![image](1-9/Soal6-a.png)
+  ![image](1-9/Soal6-b.png)
+  ![image](1-9/Soal6-c.png)
 
 ## Soal 7
 
@@ -807,12 +801,10 @@ chown -R www-data.www-data /var/www/laravel-praktikum-jarkom/storage
 
 ### Screenshot Hasil
 
-- Load Balancing pada Client (Richter - Revolte - Sein)
-  ![image]()
-- Hasil Testing pada Richter (Client)
-  ![image]()
-  ![image]()
-  ![image]()
+- Hasil Testing pada masing masing PHP Worker
+  ![image](1-9/Soal7-a.png)
+  ![image](1-9/Soal7-b.png)
+  ![image](1-9/Soal7-c.png)
 
 ## Soal 8
 
